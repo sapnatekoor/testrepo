@@ -1,0 +1,127 @@
+
+body {
+    /* background-image: url('homepage.jpg');                                     isko hatana h */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0; 
+    padding: 0; 
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  .topnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+              
+    .topnav a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 10px; 
+    }
+              
+    .loginButton {
+    background-color: #04aa6d;
+    border: none;
+    padding: 9px 15px;
+    border-radius: 5px; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    }
+              
+    .loginButton:hover {
+    background-color: #269b6a; 
+    }
+.head
+{
+    padding-top: 45px;
+    padding-bottom: 165px;
+}
+.Features
+{
+    text-align: center;
+    font-size: 80px;
+}
+
+
+
+.login 
+{
+padding-top: 50px;
+padding-bottom: 50px;
+display: flex;
+justify-content: center; 
+align-items: center; 
+box-sizing: border-box;
+border: 6px solid #463838;
+flex-basis: calc(32% - 20px);
+cursor: pointer; 
+font-size: 50px;
+
+
+}
+
+
+
+
+.containersm {
+
+/* box-sizing: border-box;
+border: 8px solid #312352; */
+flex-basis: calc(32% - 30px); */
+padding-top: 205px;
+padding-left: 70px;
+padding-right: 70px;
+display: flex; 
+justify-content: space-between;
+}
+
+.text1,
+.text2,
+.text3
+{
+
+text-align: center;
+padding: 25px; 
+flex-basis: calc(32% - 20px); 
+border: 9px solid #ccc; 
+box-sizing: border-box; /
+
+}
+.txt1
+{
+font-size: 30px;
+}
+.main
+{
+align-content: center;
+padding-left: 18%;
+padding-right: 19%;
+font-size: 30px;
+}
+.SCHEDULING
+{
+font-size: 40px;
+}
+
+
+.ico{
+font-size: 50px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+
+    .feature {
+        padding: 10px;
+    }
+}

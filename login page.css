@@ -1,0 +1,84 @@
+body {
+    /* background-image: url('homepage.jpg');                                     isko hatana h */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0; 
+    padding: 0; 
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation bar */
+  .topnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .topnav a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 10px; 
+  }
+  
+  .loginButton {
+    background-color: #04aa6d;
+    border: none;
+    padding: 9px 15px;
+    border-radius: 5px; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    
+  }
+  
+  .loginButton:hover {
+    background-color: #269b6a; 
+  }
+
+.login 
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    box-sizing: border-box;
+    border: 8px solid #eeb6b6;
+    flex-basis: calc(32% - 20px);
+    cursor: pointer; 
+    font-size: 50px;
+
+    
+}
+
+.vertical-button-group {
+    
+    padding-left: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; 
+    gap: 10px; 
+}
+
+.vertical-button-group button {
+   
+    width: 100%; 
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+  .container {
+      width: 100%;
+  }
+
+  .feature {
+      padding: 10px;
+  }
+}
